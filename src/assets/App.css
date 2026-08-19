@@ -1,0 +1,67 @@
+/* basic */
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+div#main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    margin: 8px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    outline: 2px solid;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+button.theme {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.form input {
+    margin: 8px;
+    padding: 8px;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* light mode */
+div.light {
+    background-color: aliceblue;
+    color: rgb(61, 64, 65);
+}
+
+div.light button {
+    background-color: rgb(231, 239, 247);
+    color: rgb(61, 64, 65);
+}
+
+
+/* dark mode */
+div.dark {
+    background-color: rgb(61, 64, 65);
+    color: aliceblue;
+}
+
+div.dark button {
+    background-color: rgb(70, 75, 76);
+    color: aliceblue;
+}
